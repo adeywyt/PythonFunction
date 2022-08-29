@@ -1,5 +1,5 @@
 # 定义函数
-def myfunc():
+def myfunc():  #这里定义了个myfunc函数
     for i in range(10):
         print("我是%s" % i)
         print("第%s次" % i)
@@ -30,7 +30,7 @@ print(a)
 print("")
 
 
-# 返回
+# 返回return
 def ho(x, y):
     if y == 0:
         return "除数不能为0"
